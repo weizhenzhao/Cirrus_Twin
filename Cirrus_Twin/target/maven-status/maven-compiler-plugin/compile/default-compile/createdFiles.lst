@@ -1,0 +1,14 @@
+com\springboot\service\impl\LuisServiceImpl.class
+com\springboot\service\impl\QuestionServiceImpl.class
+com\springboot\service\LuisService.class
+com\springboot\util\ExtractKeyWords.class
+com\springboot\util\Speech2Text.class
+com\springboot\service\QuestionService.class
+com\springboot\util\Text2Speech.class
+com\springboot\vo\Article.class
+com\springboot\dao\QuestionDao.class
+com\springboot\util\BlobServiceUtil.class
+com\springboot\controller\Application.class
+com\springboot\controller\SoundController.class
+com\springboot\dao\impl\QuestionDaoImpl.class
+com\springboot\datasource\DatasourceConfiguration.class

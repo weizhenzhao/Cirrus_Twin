@@ -1,0 +1,12 @@
+---
+applications:
+  - name: cirrus-twin-qa
+    memory: 800M
+    instances: 1
+    path: target/CirrusTwin-0.0.1-SNAPSHOT.jar
+    timeout: 180
+    buildpack: java_buildpack
+    env:
+      BROKER_SERVICE_NAME: cirrus-db
+    services:
+     - cirrus-db
